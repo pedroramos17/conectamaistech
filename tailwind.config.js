@@ -12,6 +12,7 @@ module.exports = {
         dark: "#2B2B2B",
         logo: "#616161",
         menu: "#242424",
+        hoverBg: "#565656",
       },
     },
   },
