@@ -10,11 +10,45 @@ nav ul > li > a {
   @apply hover:text-hoverBg;
 }
 
+.title {
+  @apply text-5xl text-black text-center pt-6;
+}
+
+.page {
+  @apply relative h-screen;
+}
+
 h2 {
   @apply text-black text-4xl text-center;
 }
 
 .shadow {
-  border-top: 5px solid rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.overscroll-inline-contain {
+  overscroll-behavior-inline: contain;
+}
+
+.horizontal-scrollbar > div {
+  @apply relative grid grid-flow-col auto-cols-[28%] gap-5 items-center overflow-x-scroll overscroll-inline-contain cursor-grab active:cursor-grabbing;
+}
+
+.btn {
+  @apply cursor-pointer h-full bg-gray-300 hover:bg-gray-500;
+}
+
+.item-container {
+}
+.img-section {
+  @apply w-40;
+}
+
+.contato-links {
+  @apply flex gap-20 p-20 mt-10;
+}
+
+.contato-links a {
+  @apply flex gap-2;
 }
