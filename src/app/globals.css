@@ -7,7 +7,7 @@ body {
 }
 
 nav ul > li > a {
-  @apply hover:text-hoverBg;
+  @apply hover:text-slate-600;
 }
 
 .title {
@@ -15,11 +15,15 @@ nav ul > li > a {
 }
 
 .page {
-  @apply relative h-screen;
+  @apply relative h-screen w-screen last:mb-10;
 }
 
 h2 {
   @apply text-black text-4xl text-center;
+}
+
+.home-page-phone {
+  @apply mt-6 max-md:w-32;
 }
 
 .shadow {
@@ -40,15 +44,25 @@ h2 {
 }
 
 .item-container {
+  @apply flex flex-col justify-center items-center;
 }
+
 .img-section {
   @apply w-40;
 }
 
+#conector.img-section {
+  @apply w-56;
+}
+
+#camera.img-section {
+  @apply w-56;
+}
+
 .contato-links {
-  @apply flex gap-20 p-20 mt-10;
+  @apply flex justify-center items-center gap-20 p-20 mt-10 mx-36 border border-x-0 border-y-2 border-slate-300 max-md:mx-10 max-md:flex-col;
 }
 
 .contato-links a {
-  @apply flex gap-2;
+  @apply flex gap-0.5 hover:bg-slate-200 hover:text-gray-600 p-2 max-md:text-sm;
 }
