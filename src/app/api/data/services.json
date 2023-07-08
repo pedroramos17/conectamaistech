@@ -1,0 +1,46 @@
+[
+  {
+    "service": [
+      {
+        "id": 1,
+        "img": {
+          "url": "/imgs/front-phone.png",
+          "description": "Celular",
+          "width": 180,
+          "height": 347
+        },
+        "title": "Troca de telas"
+      },
+      {
+        "id": 2,
+        "img": {
+          "url": "/imgs/charge-connection.png",
+          "description": "Conector de carga",
+          "width": 522,
+          "height": 241
+        },
+        "title": "Conectores"
+      },
+      {
+        "id": 3,
+        "img": {
+          "url": "/imgs/camera.png",
+          "description": "Câmera",
+          "width": 472,
+          "height": 216
+        },
+        "title": "Câmeras"
+      },
+      {
+        "id": 4,
+        "img": {
+          "url": "/imgs/battery.png",
+          "description": "Bateria",
+          "width": 282,
+          "height": 408
+        },
+        "title": "Baterias"
+      }
+    ]
+  }
+]
