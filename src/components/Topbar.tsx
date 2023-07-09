@@ -38,7 +38,7 @@ export default function Topbar() {
           <Logo />
         </span>
       }
-      <div className="md:hidden absolute right-12 flex flex-col justify-center items-center w-8 h-8 z-50">
+      <div className="md:hidden fixed right-12 top-1 flex flex-col justify-center items-center w-8 h-8 z-50">
         <button onClick={handleToggle}>
           <span
             className={`block absolute w-full h-0.5 rounded-sm bg-menu transition-transform duration-300 ${
